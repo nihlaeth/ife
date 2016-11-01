@@ -11,7 +11,7 @@ init_regions.append({
     'region': None,
     })
 
-init_locations.append(
+init_locations.extend([
     {
         '_id': ObjectId(),
         'name': 'yard',
@@ -26,5 +26,4 @@ init_locations.append(
         'anchors': 'standard directions',
         'inside': False,
         },
-    )
-
+    ])

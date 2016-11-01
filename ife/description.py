@@ -18,7 +18,6 @@ class DescType(Enum):
     long_ = 1
     short = 2
     far = 3
-    examine = 4
 
 _description = {}
 
